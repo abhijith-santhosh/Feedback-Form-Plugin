@@ -1,0 +1,50 @@
+/* Feedback Form Container */
+#feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Form Input Fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* File Input Field (for Image Upload) */
+input[type="file"] {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Image Preview Container */
+#image-preview {
+    margin-top: 10px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover Effect for Submit Button */
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}
